@@ -1,19 +1,19 @@
 @font-face {
   font-family: "OSD";
-  src:url("/Fonts/osd_mono.ttf");
+  src:url("../Fonts/osd_mono.ttf");
 }
 @font-face {
   font-family: "Dventure";
-  src:url("/Fonts/3Dventure.ttf");
+  src:url("../Fonts/3Dventure.ttf");
 }
 @font-face {
   font-family: "Wonder";
-  src:url("/Fonts/8-bit_wonder.TTF");
+  src:url("../Fonts/8-bit_wonder.TTF");
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: url("/Mario.png");
+  background: url("../Mario.png");
   background-color: #161617;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,4 +156,19 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+.event * {
+  font-size: 20px !important;
+  line-height:100% !important;
+}
+.event h2 {
+  font-size:24px;
+  color: #f46766;
+}
+.smallEvent h2 {
+  font-size:20px;
+  margin-bottom:5px;
+  margin-top:2px;
+  line-height: :100%;
+  color: #f46766;
 }
