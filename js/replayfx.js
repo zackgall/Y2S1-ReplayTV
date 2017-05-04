@@ -25,7 +25,7 @@ var baseurl = "http://replayfxcalendar.azurewebsites.net/";
         var eventType = this["replayEventTypes"];
         var image = this["image"];
         var location = $("<div></div>");
-        alert(JSON.stringify(this));
+        
         //Pull Data from each object
         title.html(this["title"]);
         /*var tempDate = this["date"];
