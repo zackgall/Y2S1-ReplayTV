@@ -136,3 +136,9 @@ var baseurl = "http://replayfxcalendar.azurewebsites.net/";
 
 });
 }
+
+function init() {
+  $("#close_me").on("click", () => {window.close();});
+}
+
+$(init);
